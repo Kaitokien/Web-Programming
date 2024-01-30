@@ -1,0 +1,30 @@
+.container{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box{
+    margin: 10px;
+    border-left: dotted 10px #D0D0FF;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 40px;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.box:hover{
+    color: goldenrod;
+    background-color: yellow;
+}
+
+
+#F{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
